@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 
 import { MdStarRate } from "react-icons/md";
 
-
 const imageUrl = import.meta.env.VITE_IMG;
 
 const MovieCard = ({movie, showLink = true}) => {

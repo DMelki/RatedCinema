@@ -21,10 +21,11 @@ const Navbar = () => {
 
 
     return (
+      <header id="cabec">
         <nav id="navbar">
           <h2 >
             <Link to ='/'>
-              <TfiVideoCamera />Rated Cinema
+              <TfiVideoCamera className="cam"/>Rated Cinema
             </Link>
           </h2>
          <form onSubmit={handleSubmit}>
@@ -37,6 +38,7 @@ const Navbar = () => {
               </button>
          </form>
         </nav>
+        </header>
     )
 }
 
