@@ -1,0 +1,15 @@
+.foot {
+    color: #fff;
+    background-color: #3D3F38;
+}
+
+.foot p {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

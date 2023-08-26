@@ -5,6 +5,8 @@ import {BsGraphUp, BsWallet2, BsHourglassSplit, BsFillFileEarmarkTextFill, } fro
 import MovieCard from "../components/MovieCard"
 
 import './Movie.css'
+import Footer from "../components/Footer"
+import { MdFolderCopy } from "react-icons/md"
 
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
@@ -32,6 +34,7 @@ const Movie = () => {
     }, []);
 
     return(
+        <>
         <div className="movie-page">
             {movie && <>
             <MovieCard movie={movie} showLink={false}/>
@@ -58,6 +61,8 @@ const Movie = () => {
             </div>
             </>}
         </div>
+        <Footer />
+        </>
     )
 }
 
