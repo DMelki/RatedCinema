@@ -11,6 +11,10 @@
     color: #F33143;
 }
 
+.movie-page .movie-card img{
+    max-width: 70%  ;
+}
+
 .movie-page .movie-card img,
 .movie-page .movie-card h2,
 .movie-page .movie-card p {
